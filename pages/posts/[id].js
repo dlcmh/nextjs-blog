@@ -22,7 +22,8 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       postData
-    }
+    },
+    revalidate: 1 // https://nextjs.org/blog/next-9-5
   }
 }
 

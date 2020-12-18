@@ -17,7 +17,7 @@ ssh -tt dakerr5 <<- 'EOF'
   echo "They are executed by: $( whoami ) on $(hostname) $(hostname -i)"
   cd apps/dakerr/nextjs-blog
   git fetch origin --prune
-  git reset --hard origin/master
+  git reset --hard origin/main
   pnpm build
   procsd restart
   exit

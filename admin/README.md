@@ -3,7 +3,7 @@
 Copy nginx config file to web host:
 
 ```shell
-rsync --rsync-path='sudo rsync' ~/projects/dakerr/dakerr-covid-19/admin/nextjsblog.dakerr.com.conf dakerr5:/etc/nginx/sites-enabled/
+rsync --rsync-path='sudo rsync' ~/projects/dakerr/nextjs-blog/admin/nextjsblog.dakerr.com.conf dakerr5:/etc/nginx/sites-enabled/
 ```
 
 Test that the config.file is valid:

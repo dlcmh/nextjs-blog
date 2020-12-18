@@ -18,6 +18,7 @@ ssh -tt dakerr5 <<- 'EOF'
   cd apps/dakerr/nextjs-blog
   git fetch origin --prune
   git reset --hard origin/main
+  pnpm i
   pnpm build
   procsd restart
   exit

@@ -29,7 +29,7 @@ mkdir dakerr
 
 cd dakerr
 
-git clone https://dlcmh:132193193be390226d082e213fbe3ba2b25397a6@github.com/dlcmh/nextjs-blog
+git clone https://dlcmh:29574f07e0df7c58265665667eb79235903f098a@github.com/dlcmh/nextjs-blog
 
 cd nextjs-blog
 
